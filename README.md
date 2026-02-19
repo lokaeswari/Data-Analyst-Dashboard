@@ -1,90 +1,36 @@
-Spotify Analytics Dashboard | Power BI Project
+Spotify Analytics Dashboard (Power BI Project)
 
-Project Overview
+Project Summary
+This is an interactive Spotify Analytics Dashboard developed in Power BI.  
+It analyzes Spotify song data to extract insights about popularity, artists, album types, and monthly trends.
 
-This project presents an interactive Spotify Analytics Dashboard built using Power BI.  
-The dashboard analyzes Spotify Top Songs data to uncover trends in song popularity, artist performance, album types, and audio features.
+ Business Questions Answered
+- Which artists have the most top songs?
+- What features make a song popular?
+- How does popularity vary by month?
+- How do explicit songs compare to non-explicit?
+- Which album types perform best?
 
-The goal is to transform raw music data into meaningful business insights through data visualization and storytelling.
+Tools Used
+- Power BI  
+- Power Query  
+- DAX (for calculated measures)  
+- CSV Dataset
 
-Business Objective
+What You Did
+- Imported and cleaned dataset
+- Created calculated measures and KPIs
+- Built interactive visuals
+- Designed multiple dashboard pages
+- Used filters to explore trends
 
-This dashboard answers key analytical questions:
+Dataset
+The project uses a dataset of Spotify Top Songs including:
+- Track name  
+- Artist  
+- Popularity  
+- Audio features (danceability, energy, tempo, etc.)
 
-- Which artists dominate streaming charts?
-- What audio features influence song popularity?
-- Do explicit songs perform better?
-- Which album types are more popular?
-- How do monthly trends affect streaming performance?
-
-Dataset Information
-
-- Dataset: Spotify Top Songs
-- Format: CSV
-- Key Fields:
-  - Track Name
-  - Artist Name
-  - Album Type
-  - Popularity Score
-  - Danceability
-  - Energy
-  - Explicit (Yes/No)
-  - Release Year
-  - Duration
-  - Tempo
-
-Tools & Technologies Used
-
-- Power BI
-- Power Query (Data Cleaning & Transformation)
-- DAX (Calculated Measures & KPIs)
-- Data Modeling
-- Interactive Filters & Slicers
-
-Data Cleaning & Preparation
-
-- Removed duplicate records
-- Handled missing values
-- Standardized column names
-- Created calculated measures
-- Built KPIs for:
-  - Distinct Songs
-  - Total Artists
-  - Average Popularity
-  - Monthly Trends
-
-Dashboard Features
-
-Home Page
-- Navigation buttons (Home, Overview, Artists, Songs)
-- Spotify-themed UI design
-
-Overview Page
-- KPI Cards
-- Popularity by Month
-- Album Type Distribution
-- Explicit vs Non-Explicit Comparison
-- Distinct Songs by Month
-
-Artists Analysis
-- Songs by Artist
-- Artist Ranking
-- Average Popularity per Artist
-- Hit Position Analysis
-
-Songs Analysis
-- Top Songs by Popularity
-- Audio Feature Comparison
-- Song-Level Insights
-- Popularity Distribution
-
-Key Insights
-
-- High danceability and energy strongly correlate with popularity.
-- Certain artists consistently dominate chart rankings.
-- Single albums show slightly higher average popularity.
-- Explicit tracks demonstrate strong engagement.
-- Monthly trends reveal listener preference patterns.
 
 Dashboard Preview
 
@@ -96,3 +42,11 @@ Overview Page
 
 Songs Analysis
 ![Songs](https://github.com/lokaeswari/Data-Analyst-Dashboard/blob/main/spotify%203%20image.jpg)
+
+Project Impact
+This demonstrates my capabilities in:
+✔ Data cleaning  
+✔ Dashboard design  
+✔ KPI building  
+✔ Insight interpretation  
+✔ Effective data storytelling
